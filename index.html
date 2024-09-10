@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Adicionando rolagem suave */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <!--Menu do Site-->
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="image/FN.png" alt="Logo do Site">
+                </a>
+            </div>
+
+            <nav class="menu-dektop">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre Mim</a></li>
+                    <li><a href="#educacao">Formação Educacional</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                </ul>
+            </nav>
+
+            <div class="contato">
+                <a href="#contato">
+                    <button>Contato</button>
+                </a>
+            </div>
+        </div>
+    </header><!-- Menu final -->
+
+    <main>
+        <!--Topo do Site-->
+        <section class="topo-do-site" id="inicio">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>CONECTANDO VISÕES CRIATIVAS AO UNIVERSO DIGITAL<span>.</span></h1>
+                        <p>
+                            Criatividade e inovação se entrelaçam para dar vida à sua visão digital. Combinando design
+                            impactante, funcionalidade intuitiva e otimização estratégica, estou preparado para
+                            construir a presença online que você sempre imaginou.
+                        </p>
+
+                        <div class="contato">
+                            <a href="#contato">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="img-topo-site">
+                        <img src="image/image.png" alt="Imagem Criativa">
+                    </div>
+                </div>
+            </div>
+        </section><!-- Topo do Site Final -->
+
+        <!--Sobre do Site-->
+        <section class="sobre" id="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="image/image2.jpg" alt="Imagem sobre mim">
+                    </div>
+
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER, <span>SOU O FELIPE NEVES.</span></h2>
+                        <p>
+                            Sou Técnico em Manutenção Pleno e estou cursando Tecnólogo em Análise e Desenvolvimento de
+                            Sistemas, com previsão de formatura em agosto de 2026. Tenho formação como Técnico em
+                            Eletrônica desde 2017, com experiência prática em sistemas operacionais Windows e Linux,
+                            além de conhecimentos básicos em CSS, HTML e JavaScript. Também sou proficiente no Pacote
+                            Office e tenho facilidade em aplicar habilidades técnicas no ambiente de trabalho.
+                        </p>
+
+                        <p>
+                            Atualmente, estou em busca de oportunidades na área de Tecnologia da Informação, seja em
+                            posições de Júnior, Suporte ou Estágio. Meu objetivo é crescer profissionalmente no setor de
+                            tecnologia, com foco em análises e desenvolvimento. Tenho como diferencial minha capacidade
+                            de análise crítica, comunicação eficaz e trabalho em equipe, sempre comprometido em entregar
+                            resultados de alta qualidade.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- Sobre do Site Final -->
+
+        <!--Formação Educacional-->
+        <section class="formacao" id="educacao">
+            <div class="interface">
+                <h2 class="titulo">FORMAÇÃO <span>EDUCACIONAL</span></h2>
+                <div class="flex">
+                    <div class="formacao-box">
+                        <h3>Tec. Eletrônica</h3>
+                        <h4>Faetec ETE.República</h4>
+                        <p>Concluído - 07/2017</p>
+                    </div>
+
+                    <div class="formacao-box">
+                        <h3>Ens. Superior</h3>
+                        <h4>UNINTER</h4>
+                        <p>Análise e Desenvolvimento de Sistemas</p>
+                        <p>Conclusão - 07/2026</p>
+                    </div>
+
+                    <div class="formacao-box">
+                        <h3>Ens. Médio</h3>
+                        <h4>CIEP Federico Fellini</h4>
+                        <p>Concluído - 2008</p>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- Formação Educacional Final -->
+
+        <!--Portfólio-->
+        <section class="portifolio" id="portfolio">
+            <div class="interface">
+                <h2 class="titulo">MEU <span>PORTFÓLIO</span></h2>
+                <div class="flex">
+                    <a href="https://github.com/Felippe-Neves" target="_blank" rel="noopener noreferrer">
+                        <img src="image/github.png" alt="Link para o GitHub de Felipe Neves" class="img-port">
+                    </a>
+                </div>
+            </div>
+        </section> <!-- Portfólio Final -->
+
+        <!--Formulário-->
+        <section class="formulario" id="contato">
+            <div class="interface">
+                <h2 class="titulo">FALA <span>COMIGO</span></h2>
+                <form action="">
+                    <input type="text" placeholder="Seu nome completo:" required>
+                    <input type="email" placeholder="Seu e-mail:" required>
+                    <input type="tel" placeholder="Seu celular:">
+                    <textarea placeholder="Sua mensagem"></textarea>
+                    <div class="btn-enviar">
+                        <input type="submit" value="ENVIAR">
+                    </div>
+                </form>
+            </div>
+        </section> <!-- Formulário Final -->
+
+    </main>
+
+</body>
+
+</html>
